@@ -9,6 +9,6 @@
     <body>
         <h1>Olá, mundo!</h1>
         <br/>
-        <h2><a href="/primeiro-servlet/login.xhtml">Login</a></h2>
+        <h2><a href="login.xhtml">Login</a></h2>
     </body>
 </html>

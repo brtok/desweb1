@@ -37,7 +37,7 @@ public class Login extends HttpServlet {
                 response.sendRedirect("erro.xhtml");
             } else {
                 if (login.trim().equals(senha)) {
-                    response.sendRedirect("/primeiro-servlet/sucesso?login=" + login + "&perfil=" + perfil);
+                    response.sendRedirect("sucesso?login=" + login + "&perfil=" + perfil);
                 } else {
                     response.sendRedirect("erro.xhtml");
                 }
